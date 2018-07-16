@@ -4,6 +4,10 @@
         font-family: sans-serif;
     }
 
+    *.focus {
+        outline: none;
+    }
+
     body {
         background: black;
     }
@@ -35,6 +39,10 @@
     * {
         font-family: sans-serif;
     }
+
+    *.focus {
+        outline: none;
+    }
     
     body {
         background: black;
@@ -58,6 +66,7 @@
     #inputArea input {
         background: black;
         border: none;
+        color: white;
     }
 }
 

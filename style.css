@@ -1,27 +1,62 @@
-* {
-    font-family: sans-serif;
+/* Portrait */
+@media all and (orientation: portrait){
+    * {
+        font-family: sans-serif;
+    }
+
+    body {
+        background: black;
+    }
+
+    .registered {
+        color: white;
+        display: block;
+    }
+
+    #inputArea {
+        position: absolute;
+        bottom: 0;
+        color: white;
+    }
+
+    #inputArea p, #inputArea input {
+        display: inline;
+    }
+
+    #inputArea input {
+        background: black;
+        border: none;
+    }
 }
 
-body {
-    background: black;
+/* Landscape */
+@media all and (orientation: landscape){
+    * {
+        font-family: sans-serif;
+    }
+    
+    body {
+        background: black;
+    }
+    
+    .registered {
+        color: white;
+        display: block;
+    }
+    
+    #inputArea {
+        position: absolute;
+        bottom: 0;
+        color: white;
+    }
+    
+    #inputArea p, #inputArea input {
+        display: inline;
+    }
+    
+    #inputArea input {
+        background: black;
+        border: none;
+    }
 }
 
-.registered {
-    color: white;
-    display: block;
-}
-
-#inputArea {
-    position: absolute;
-    bottom: 0;
-    color: white;
-}
-
-#inputArea p, #inputArea input {
-    display: inline;
-}
-
-#inputArea input {
-    background: black;
-    border: none;
-}

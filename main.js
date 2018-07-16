@@ -19,11 +19,16 @@ function register(cmd){
 //Parses and processes most recent command to determine output
 function process(cmd){
     if (cmd == "clear"){
-        $(".registered").empty();
+        clear();
     }
     if (cmd == "about"){
         about();
     }
+}
+
+// Clears terminal screen
+function clear(){
+    $(".registered").empty();
 }
 
 // Displays "about" information

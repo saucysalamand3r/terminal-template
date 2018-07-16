@@ -30,7 +30,7 @@
 
     #inputArea input {
         background: black;
-        border-color: #00000000
+        border-color: #00000000;
         border: none;
         color: white;
     }
@@ -68,7 +68,7 @@
     
     #inputArea input {
         background: black;
-        border-color: #00000000
+        border-color: #00000000;
         border: none;
         color: white;
     }

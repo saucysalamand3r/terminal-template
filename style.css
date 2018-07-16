@@ -1,0 +1,27 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background: black;
+}
+
+.registered {
+    color: white;
+    display: block;
+}
+
+#inputArea {
+    position: absolute;
+    bottom: 0;
+    color: white;
+}
+
+#inputArea p, #inputArea input {
+    display: inline;
+}
+
+#inputArea input {
+    background: black;
+    border: none;
+}

@@ -13,6 +13,7 @@ function register(cmd){
         $(".registered").append(dom);
         process(cmd);
         $("#inputBox").val('');
+        $('body').scrollTop($('body')[0].scrollHeight);
     }
 }
 
@@ -26,6 +27,9 @@ function process(cmd){
     }
     if (cmd.indexOf("theme") != -1){
         theme(cmd);
+    }
+    if (cmd == "help"){
+        help();
     }
 }
 
@@ -59,4 +63,9 @@ function theme(cmd){
         $("*").css("color", "white");
         $("*").css("background-color", "black");
     }
+}
+
+// Displays list of commands
+function help(){
+    $(".registered").append("<div>Available Commands:</div><div>help - displays this list of available commands</div><div>theme (white | light | dark | black) - changes the terminal color theme</div><div>clear - clears the terminal screen</div>");
 }

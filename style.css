@@ -11,17 +11,23 @@
 
     body {
         background: black;
+        overflow-y: scroll;
+        padding-bottom: 5%;
     }
 
     .registered {
         color: white;
         display: block;
+        /* overflow: auto;
+        overflow-y: scroll;
+        height: auto; */
     }
 
     #inputArea {
-        position: absolute;
+        position: fixed;
         bottom: 0;
         color: white;
+        background: black;
     }
 
     #inputArea p, #inputArea input {
@@ -49,17 +55,23 @@
     
     body {
         background: black;
+        overflow-y: scroll;
+        padding-bottom: 5%;
     }
     
     .registered {
         color: white;
         display: block;
+        /* overflow: auto;
+        overflow-y: scroll;
+        height: auto; */
     }
     
     #inputArea {
-        position: absolute;
+        position: fixed;
         bottom: 0;
         color: white;
+        background: black;
     }
     
     #inputArea p, #inputArea input {
